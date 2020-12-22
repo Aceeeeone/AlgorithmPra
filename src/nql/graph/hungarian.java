@@ -29,7 +29,6 @@ public class hungarian {
                 if (vis[i] == false) {
                     vis[i] = true;
                     if (match[i] == -1 || dfsfind(match[i])) {
-                        match[p] = i;
                         match[i] = p;
                         System.out.println(p + "match" + i);
                         return true;
