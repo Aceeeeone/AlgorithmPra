@@ -51,6 +51,7 @@ public class kthElement {
 
     public static void main(String[] args) {
         kthElement kthElement = new kthElement();
+        //有序数组找第k小来解决中位数问题
         int[] a = {1,3,4,9};
         int[] b = {1,2,3,4,5,6,7,8,9};
         double mid = kthElement.findMedianSortedArrays(a,b);
